@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/webhook.cs": {
+      "runtime": "dotnet8"
+    }
+  },
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook.cs"
+    }
+  ]
+}
